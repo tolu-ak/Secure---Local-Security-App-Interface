@@ -8,19 +8,19 @@ Secure Kelowna is a conceptual app designed to empower local communities by prov
 The app leverages the Google Maps API to display real-time locations of potential dangers and other alerts. This was a critical feature to simulate how users could visualize and respond to threats in their surroundings.
 
 **🌟 Features**
-1. Create an Alert:
+**1. Create an Alert:**
 Draft and publish alerts to notify other users of potential dangers.
 While this feature is not connected to a real backend, the UI simulates how users would interact with the app.
 
-2. Community Forum:
+**2. Community Forum:**
 View a collection of alerts and discussions posted by other users.
 This forum is a prototype to show how a community-driven safety network might function.
 Location Sharing:
 
-3. Emergency contacts by inputting their name and phone number.
+**3. Emergency contacts by inputting their name and phone number.**
 Store emergency contacts and choose whether or not to share your location with them via email
 
-3. Alert Map:
+**4. Alert Map:**
 View an interactive map showing the locations of reported dangers.
 Powered by the Google Maps API, this feature highlights the potential for visualizing alerts geographically.
 
@@ -42,7 +42,7 @@ Navigate through the app to explore its features and design.
 
 **🎨 Screenshots**
 
-Home Screen:
+**Home Screen:**
 
 
 
@@ -50,7 +50,7 @@ Home Screen:
 
 
 
-Alert Map:
+**Alert Map:**
 
 
 ![image](https://github.com/user-attachments/assets/9d93719f-abd6-425a-9084-4fadfb075f9f)
