@@ -1,13 +1,13 @@
-Secure - Local Security App Prototype
+**Secure - Local Security App Prototype**
 
 Welcome to the Secure Kelowna GitHub repository! This repository showcases a prototype for a local security app developed using Android Studio as part of a team project. Our team of three focused on creating an intuitive and user-friendly interface aimed at enhancing community safety.
 
-🛠️ Project Overview
+**🛠️ Project Overview**
 Secure Kelowna is a conceptual app designed to empower local communities by providing tools to share and respond to security concerns in their area. Though the functionality is primarily a prototype, the app interface offers several features, including an alert system, an interactive map, emergency contact management, and a community forum.
 
 The app leverages the Google Maps API to display real-time locations of potential dangers and other alerts. This was a critical feature to simulate how users could visualize and respond to threats in their surroundings.
 
-🌟 Features
+**🌟 Features**
 1. Create an Alert:
 Draft and publish alerts to notify other users of potential dangers.
 While this feature is not connected to a real backend, the UI simulates how users would interact with the app.
@@ -24,12 +24,12 @@ Store emergency contacts and choose whether or not to share your location with t
 View an interactive map showing the locations of reported dangers.
 Powered by the Google Maps API, this feature highlights the potential for visualizing alerts geographically.
 
-🧩 Technical Details
+**🧩 Technical Details**
 Framework: Android Studio (Java/Kotlin)
 Key API Used: Google Maps API for geolocation and map integration.
 Focus: UI/UX design and interface development (functionality is not connected to a backend).
 
-🚀 How to Use
+**🚀 How to Use**
 Clone this repository:
 Step 1: bash
 Step 2: Copy
@@ -40,7 +40,7 @@ Open the project in Android Studio.
 Run the app on an Android Emulator or a connected device.
 Navigate through the app to explore its features and design.
 
-🎨 Screenshots
+**🎨 Screenshots**
 
 Home Screen:
 
@@ -66,7 +66,7 @@ Alert Map:
 
 
 
-Location Sharing & Emergency Contact Screen:
+**Location Sharing & Emergency Contact Screen:**
 
 ![image](https://github.com/user-attachments/assets/0f97f110-703a-4ce9-8def-5cebd839a5bd)
 
@@ -87,12 +87,13 @@ Location Sharing & Emergency Contact Screen:
 
 
 
-Community Forum:
+**Community Forum:**
+
 ![image](https://github.com/user-attachments/assets/eaafaaf4-9c97-439e-b3e9-17ddd754d6a9)
 
 
 
-👥 Team Contributions
+**👥 Team Contributions**
 This project was developed collaboratively by a team of three, focusing on:
 UI/UX Design: Building the user interface for seamless navigation.
 Google Maps Integration: Implementing map functionality for displaying alerts.
