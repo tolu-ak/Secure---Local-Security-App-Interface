@@ -34,7 +34,7 @@ Clone this repository:
 Step 1: bash
 Step 2: Copy
 Step 3L Edit
-git clone https://github.com/tolu-ak/secure---local-security-interface.git  
+git clone https://github.com/tolu-ak/Secure---Local-Security-App-Interface.git  
 Open the project in Android Studio.
 
 Run the app on an Android Emulator or a connected device.
