@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_preferences_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREFERENCES"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Location Radius -->
+    <TextView
+        android:id="@+id/tv_location_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION RADIUS"
+        android:textStyle="bold"
+        android:layout_below="@id/tv_preferences_title"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_location_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_location_radius"
+        android:hint="10km"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Severity Threshold -->
+    <TextView
+        android:id="@+id/tv_severity_threshold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEVERITY THRESHOLD"
+        android:textStyle="bold"
+        android:layout_below="@id/et_location_radius"
+        android:layout_marginTop="16dp" />
+
+    <!-- Has Attachments -->
+
+    <Spinner
+        android:id="@+id/spinner_severity_threshold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_severity_threshold"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/severity_options" />
+
+    <TextView
+        android:id="@+id/tv_has_attachments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAS ATTACHMENTS"
+        android:textStyle="bold"
+        android:layout_below="@id/spinner_severity_threshold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner_has_attachments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_has_attachments"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/attachments_options" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:textStyle="bold"
+        android:layout_below="@id/spinner_has_attachments"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_status"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/status_options" />
+
+    <!-- Back and Save Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE" />
+    </LinearLayout>
+</RelativeLayout>

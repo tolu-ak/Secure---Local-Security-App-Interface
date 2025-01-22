@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForumActivity">
+
+    <ImageView
+        android:id="@+id/downvoteArrow5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="184dp"
+        android:rotationX="180"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/upvoteArrow5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="184dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/button_comment2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/count6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="184dp"
+        android:visibility="gone"
+        android:layout_marginEnd="2dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/downvoteArrow5"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow5"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <TextView
+        android:id="@+id/alertType5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        android:text="@string/emptyType"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/textName5" />
+
+    <TextView
+        android:id="@+id/textName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="312dp"
+        android:visibility="gone"
+        android:text="@string/emptyName"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/alertType1" />
+
+    <TextView
+        android:id="@+id/time6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        android:text="@string/emptyDate"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/alertType5" />
+
+    <ImageView
+        android:id="@+id/pfp5"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2"
+        app:srcCompat="@drawable/pfp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/pfp2"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp1"
+        app:srcCompat="@drawable/pfp" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/example2"
+        app:layout_constraintBottom_toTopOf="@+id/button_comment2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/desc5"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone"
+
+        android:text="@string/emptyDesc"
+        app:layout_constraintBottom_toTopOf="@+id/button_upvote5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time6" />
+
+    <ImageView
+        android:id="@+id/upvoteArrow2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/button_comment2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/date2"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/alertType2" />
+
+    <Button
+        android:id="@+id/button_upvote2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/upvote"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2" />
+
+    <Button
+        android:id="@+id/button_upvote5"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="240dp"
+        android:visibility="gone"
+        android:text="@string/upvote"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2" />
+
+    <Button
+        android:id="@+id/button_comment2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/comment"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/button_upvote2"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2" />
+
+    <Button
+        android:id="@+id/button_comment5"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:visibility="gone"
+        android:text="@string/comment"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/button_upvote2"
+        app:layout_constraintTop_toBottomOf="@+id/pfp2" />
+
+    <TextView
+        android:id="@+id/count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/downvoteArrow2"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <ImageView
+        android:id="@+id/downvoteArrow2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="6dp"
+        android:rotationX="180"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow2"
+        app:layout_constraintTop_toBottomOf="@+id/desc2"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/alertType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/incident2"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/textName2" />
+
+    <TextView
+        android:id="@+id/textName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/user2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pfp2"
+        app:layout_constraintTop_toBottomOf="@+id/alertType1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="383dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:iconifiedByDefault="true"
+        android:queryHint="@string/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/pfp1"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:srcCompat="@drawable/pfp" />
+
+    <TextView
+        android:id="@+id/textName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/user1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pfp1"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/alertType1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/incident1"
+        app:layout_constraintStart_toEndOf="@+id/pfp1"
+        app:layout_constraintTop_toBottomOf="@+id/textName1" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/date1"
+        app:layout_constraintStart_toEndOf="@+id/pfp1"
+        app:layout_constraintTop_toBottomOf="@+id/alertType1" />
+
+    <Button
+        android:id="@+id/button_upvote1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/upvote"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp1" />
+
+    <Button
+        android:id="@+id/button_comment1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/comment"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/button_upvote1"
+        app:layout_constraintTop_toBottomOf="@+id/pfp1" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/example1"
+        app:layout_constraintBottom_toTopOf="@+id/button_upvote1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pfp1" />
+
+    <Button
+        android:id="@+id/button_alert"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#020202"
+        android:text="@string/create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0F0D0D"
+        android:drawablePadding="4dp"
+        android:src="@drawable/house"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_alert" />
+
+    <ImageView
+        android:id="@+id/upvoteArrow1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toEndOf="@+id/button_comment1"
+        app:layout_constraintTop_toBottomOf="@+id/desc1"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/downvoteArrow1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="6dp"
+        android:rotationX="180"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow1"
+        app:layout_constraintTop_toBottomOf="@+id/desc1"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/downvoteArrow1"
+        app:layout_constraintStart_toEndOf="@+id/upvoteArrow1"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

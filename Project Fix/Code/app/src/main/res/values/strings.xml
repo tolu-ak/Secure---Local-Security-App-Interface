@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Secure Kelowna</string>
+    <string name="title">Community Forum</string>
+    <string name="user1">John Doe</string>
+    <string name="user2">Rachel Zane</string>
+    <string name="user3">James Bryant</string>
+    <string name="incident1">Highway 97 Oil Spill</string>
+    <string name="incident2">Car Break-In</string>
+    <string name="upvote">UPVOTE</string>
+    <string name="comment">COMMENT</string>
+    <string name="search">Search</string>
+    <string name="example1">This incident is used as an example description. I just drove by and saw a massive truck fall over on the way to the UBC campus and spill all the oil it contained.</string>
+    <string name="example2">This incident is used as an example description. I was walking in Glenmore and noticed that there was a car with a broken window and a masked man was running away.</string>
+    <string name="home">Home</string>
+    <string name="create">Create an Alert</string>
+    <string name="date1">Monday, 11:15</string>
+    <string name="date2">Sunday, 18:38</string>
+    <string name="forum">Forum</string>
+    <string name="location">Location Sharing</string>
+    <string name="preferences">Preferences</string>
+    <string name="map">Alert Map</string>
+    <string name="alert">Create an Alert</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="feature">Choose a Feature</string>
+    <string name="callPolice">Hold to Call Police</string>
+    <string name="callFire">Hold to Call Fire Department</string>
+    <string name="callAmbulance">Hold to Call Ambulance</string>
+    <string name="emergencyOptions">EMERGENCY OPTIONS</string>
+    <string name="back">Back</string>
+    <string name="log_incident">LOG INCIDENT</string>
+    <string name="enterName">Your Name (optional)</string>
+    <string name="date_of_incident">Date of Incident</string>
+    <string name="time">Time</string>
+    <string name="location2">Location</string>
+    <string name="type_of_incident">Type of Incident</string>
+    <string name="brief_description_optional">Brief Description (optional)</string>
+    <string name="attach_images_optional">ATTACH IMAGES (OPTIONAL)</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    <string name="location_emergency_options"><![CDATA[LOCATION & EMERGENCY OPTIONS]]></string>
+    <string name="emptyName"> </string>
+    <string name="emptyType"> </string>
+    <string name="emptyDate"> </string>
+    <string name="emptyDesc"> </string>
+    <string name="share">Share</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="enter_email">Enter email</string>
+
+    <string-array name="severity_options">
+        <item>Major</item>
+        <item>Minor</item>
+        <item>Critical</item>
+    </string-array>
+
+    <string-array name="attachments_options">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="status_options">
+        <item>In Progress</item>
+        <item>Resolved</item>
+        <item>Pending</item>
+    </string-array>
+
+
+</resources>
