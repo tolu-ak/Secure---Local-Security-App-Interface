@@ -31,10 +31,10 @@ Focus: UI/UX design and interface development (functionality is not connected to
 
 🚀 How to Use
 Clone this repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/secure-kelowna.git  
+Step 1: bash
+Step 2: Copy
+Step 3L Edit
+git clone https://github.com/tolu-ak/secure---local-security-interface.git  
 Open the project in Android Studio.
 
 Run the app on an Android Emulator or a connected device.
@@ -44,13 +44,24 @@ Navigate through the app to explore its features and design.
 
 Home Screen:
 
+
+
 ![image](https://github.com/user-attachments/assets/7a4932d2-8459-4f61-982f-1d50e4ae82eb)
 
 
 
 Alert Map:
+
+
 ![image](https://github.com/user-attachments/assets/9d93719f-abd6-425a-9084-4fadfb075f9f)
+
+
+
 ![image](https://github.com/user-attachments/assets/01ad43e8-7a6e-4ed3-a4b5-643c91b0abbe)
+
+
+
+
 ![image](https://github.com/user-attachments/assets/320c0189-cf96-46c7-acba-5ebaaf0125e2)
 
 
@@ -59,7 +70,18 @@ Location Sharing & Emergency Contact Screen:
 
 ![image](https://github.com/user-attachments/assets/0f97f110-703a-4ce9-8def-5cebd839a5bd)
 
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/4e539256-2024-400c-80d1-eb5963f1c037)
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/8b2db548-f8fb-458d-97c1-24a775a9b862)
 
