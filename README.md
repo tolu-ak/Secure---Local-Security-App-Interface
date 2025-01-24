@@ -30,14 +30,26 @@ Key API Used: Google Maps API for geolocation and map integration.
 Focus: UI/UX design and interface development (functionality is not connected to a backend).
 
 **🚀 How to Use**
-Clone this repository:
-Step 1: bash
-Step 2: Copy
-Step 3L Edit
-git clone https://github.com/tolu-ak/Secure---Local-Security-App-Interface.git  
-Open the project in Android Studio.
+1. Clone this repository:
+Open your terminal and run:
 
-Run the app on an Android Emulator or a connected device.
+bash
+Copy
+Edit
+git clone https://github.com/tolu-ak/Secure---Local-Security-App-Interface.git
+
+2. Generate a Google API Key:
+Go to Google Cloud Console.
+Create a new project (or use an existing one).
+Go to API & Services > Credentials and click Create Credentials.
+Choose API Key and copy the key.
+Add the API Key to Your Project:
+
+3. Open the project in Android Studio.
+Add the key in the strings.xml file like this:
+<string name="google_maps_key">your_generated_api_key</string>
+
+4. Run the App in Android Studio or an Android emulator.
 Navigate through the app to explore its features and design.
 
 **🎨 Screenshots**
